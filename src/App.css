@@ -1,0 +1,32 @@
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 0px
+}
+
+::-webkit-scrollbar-thumb {
+  background:black;
+ 
+}
+
+.app {
+  min-height: 100vh;
+  background-color: #39445a;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+}
+
+@media (max-width: 700px) {
+  .app {
+    padding-top: 70px;
+  }
+}
